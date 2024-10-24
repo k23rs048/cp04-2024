@@ -190,7 +190,7 @@
     function btnAClick(e){
         active = true;
         startTime = new Date();
-        
+        $("#btnA").css("background-color","lightgray");
         
     }
 
@@ -211,6 +211,7 @@
     
     $("#time").html("経過時間： 0");
     $("#remain").html("残り時間： " + minutes + "分 " + seconds + "秒");
+    $("#btnA").css("background-color","yellow");
 }
 
     
